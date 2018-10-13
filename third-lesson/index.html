@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+			<form action="http://maximumstart.herokuapp.com/register" method="POST" class="form">
+			<h1>Регистрация</h1>
+			<p>
+				*Все поля обязательны к заполнению
+			</p>
+			<p>
+				<label for="name-field">Имя</label>
+				<input type="text" id="name-field" name="name" required>
+			</p>
+			<p>
+				<label for="surname-field">Фамилия</label>
+				<input type="text" id="surname-field" name="surname" required>
+			</p>
+			<p>
+				<label for="phone-field">Телефон</label>
+				<input type="text" id="phone-field" name="phone" placeholder="+380-XX-XX-XX-XXX" required>
+			</p>
+			<p>
+				<label for="color-field">Любимый цвет</label>
+				<input type="color" id="color-fitld" name="color" required>
+			</p>
+			<p>
+				<label for="date-field">Сегодняшнее число</label>
+				<input type="date" id="date-field" name="date" required>
+			</p>
+			<p>
+				<label for="password-field">Пароль</label>
+				<input type="password" id="password-field" name="password" required>
+			</p>
+			
+				<label for="male-radio">Мальчик</label>
+				<input type="radio" id="male-field" name="gender" value="Мальчик">
+			
+				<label for="female-radio">Девочка</label>
+				<input type="radio" id="female-field" name="gender" value="male">
+			
+				<label for="unknown-radio">Не определился</label>
+				<input type="radio" id="unknown-field" name="gender" value="unknown">
+			
+			<p>
+				<label for="message-field">Сообщение</label>
+				<textarea id="message-field" name="message"></textarea>
+			</p>
+			<input type="submit" value="Отправить">
+		
+		</form>
+	</body>
+</html>
