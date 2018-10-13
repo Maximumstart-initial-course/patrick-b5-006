@@ -1,0 +1,61 @@
+/*
+	Служебные стили. Тут ничего не стоит изменять!
+*/
+
+body {
+	margin: 0;
+}
+
+* {
+	font-family: sans-serif;
+}
+
+.article__more {
+	text-decoration: none;
+	
+
+}
+
+.article > a:hover {
+    color: #000;  
+    text-decoration: underline dotted;
+}
+
+.article {
+	line-height: 27px;
+}
+
+.article a {
+	color: #000;
+}
+
+
+
+.header {
+	text-align: center;
+	background-color: #e5e5e5;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	height: 150px;
+}
+
+/*
+	Ниже можно начинать писать свои стили.
+*/
+
+.article {
+	background-color: #ccc;
+	border: 1px dashed #000;
+	margin: 30px;
+/*	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 30px;
+	padding-left: 30px;*/
+	padding: 10px 30px;
+}
+
+.footer { 
+    border-top:1px solid black;
+  	padding: 15px;  
+  	background-color: #e5e5e5;
+}
