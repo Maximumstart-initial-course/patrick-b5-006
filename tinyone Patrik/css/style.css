@@ -40,42 +40,42 @@ body {
 }
 
 .sprite-icon-font-1 {
-    width: 110px;
+    width: 33px;
     height: 40px;
     background-position: -54px -54px;
     margin: 0 14px 0 16px;
 }
 
 .sprite-icon-font-2 {
-    width: 166px;
+    width: 43px;
     height: 40px;
     background-position: -97px -54px;
     margin: 0 3px 0 8px;
 }
 
 .sprite-icon-font-3 {
-    width: 152px;
+    width: 49px;
     height: 44px;
     background-position: -5px -104px;
     margin: 0 11px 0 10px;
 }
 
 .sprite-icon-font-4 {
-    width: 181px;
+    width: 53px;
     height: 39px;
     background-position: -58px -104px;
     margin: 0 6px 0 5px;
 }
 
 .sprite-icon-font-5 {
-    width: 173px;
+    width: 53px;
     height: 40px;
     background-position: -120px -104px;
     margin: 0 5px 0 10px;
 }
 
 .sprite-icon-font-6 {
-    width: 125px;
+    width: 41px;
     height: 43px;
     background-position: -183px -5px;
     margin: 0 9px 0 13px;
@@ -228,7 +228,7 @@ h3 {
 .email-address {
     background: #010101;
     color: #fff;
-    height: 182px;
+    min-height: 182px;
 }
 
 .form {
@@ -308,7 +308,7 @@ h3 {
     -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    height: 527px;
+    min-height: 527px;
 }
 
 .header-main{
