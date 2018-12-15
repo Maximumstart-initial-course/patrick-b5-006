@@ -1,0 +1,175 @@
+body {
+ margin: 0;
+ background: #f5f5f5;
+}
+
+h1 {
+	color: #444444;
+}
+
+p {
+	color: #a8a8a8;
+}
+
+h2 {
+	color: #4f4f4f;
+}
+
+a {
+	color: #a8a8a8;
+	text-decoration: none;
+}
+
+.header {
+	background-color: #333333;
+ 	display: flex;
+ 	justify-content: space-between;
+ 	align-items: center;
+ 	height: 70px;
+}
+
+.logo-link {
+	font-size: 23px;
+ 	color: #fff;
+ 	margin: 0;
+ 	padding: 0 20px;
+ 	text-decoration: none;
+}
+
+.header-menu-link {
+	color: #b1abb2;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.main-header ul li {
+	display: inline;
+    list-style-type: none;
+    padding: 0px 30px;
+}
+
+.post,
+.social {
+	background-color: #ffffff;
+	padding: 1em;
+	color: #d2cbd7; 
+	margin: 65px 15px -25px 24px;
+	box-shadow: 0px 0px 7px 1px;
+}
+.main {
+	display: grid;
+ 	grid-template-areas: "item-1  item-3"
+       					 "item-2  item-3";
+ 	grid-template-columns: 70% 30%;
+}
+
+.post {
+	grid-area: item-1;
+}
+
+.next-post {
+	grid-area: item-2;
+}
+
+.social {
+	grid-area: item-3;
+}
+
+.main-social {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.main-social a {
+	display: flex;
+    width: 43px;
+    height: 43px;
+    border: 1px solid;
+    border-radius: 50%;
+    margin: 6px;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+	width: 99%;
+	background-color: #eee;
+	border: 1px solid #eee;
+	margin-top: 20px;
+}
+
+.line-color {
+	width: 30%;
+	border: 1px solid #919191;
+}
+
+.search-engine {
+	width: 90%;
+    height: 44px;
+    border-radius: 30px;
+    border: 1px solid #eee;
+    margin: 40px 1.2em;
+}
+
+.image-post {
+	width: 100%;
+}
+
+.fa-facebook-f,
+.fa-twitter,
+.fa-instagram {
+	color: #4286f4;
+}
+
+.fa-google-plus-g,
+.fa-pinterest-p,
+.fa-youtube {
+	color: #e84a06;
+}
+
+.fa-linkedin-in,
+.fa-tumblr {
+	color: #020202;
+}
+
+.fa-wifi,
+.fa-soundcloud {
+	color: #f78d2a;
+}
+
+.recent-post {
+	display: flex;
+	border-bottom: 10px;
+}
+
+.recent-post-number {
+	display: flex;
+    width: 43px;
+    height: 43px;
+    border: 1px solid;
+    border-radius: 50%;
+    margin: 6px;
+    justify-content: center;
+    align-items: center;
+}
+
+.recent-post a {
+	margin-top: 10px;
+}
+
+.image-link {
+	display: flex;
+    width: 30px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+.post-link {
+	display: flex;
+}
+
+.post-link a {
+	margin-top: 5px;
+    margin-left: 5px;
+}
